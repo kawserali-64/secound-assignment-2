@@ -1,0 +1,109 @@
+   @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* sheared style */
+
+.display-flex{
+    display: flex;
+}
+
+.primary-btn{
+    width: 135px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 10000px;
+    border: none;
+    color: white;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+}
+.text-light{
+    color: rgba(255, 255, 255, 0.694);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* header style */
+.navbar-container{
+    max-width: 1600px;
+    background:rgba(26, 11, 46, 1);
+    margin: 0 auto;
+}
+.navbar{
+    
+    justify-content: space-between;
+    padding: 16px;
+    margin: 0 200px;
+}
+.nav-link{
+    list-style: none;
+    text-decoration: none;
+    gap: 32px;
+    
+}
+.nav-links{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    
+}
+.header-title{
+    color: white;
+}
+
+/* banner style */
+.banner-container{
+    border: 2px solid red;
+    max-width: 1600px;
+    height: 760px;
+    margin: 0 auto;
+    background-image: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+}
+.circle-img{
+    margin-top: 101px;
+}
+.circle-content{
+    text-align:center;
+    align-items: center;
+    margin-top: 40px;
+}
+.circle-title{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+}
+.banner-button{
+    gap: 8px;
+    margin-top: 24px;
+}
+.btn-1{
+    width: 201px;
+    gap: 8px;
+}
+.btn-2{
+    width: 147px;
+    height: 44px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 255, 136, 1);
+    border-radius: 10000px;
+    background: transparent; 
+     
+}
