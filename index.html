@@ -7,42 +7,56 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <main>
-
-   
-        <header class="navbar-container">
-        <nav class="navbar display-flex">
-            <h3 class="header-title">Tech<span class="title-wave">Wave</span>
-            </h3>
+        <header>
+            <nav class="navbar display-flex">
+                <p class="header-title">TechWave</p>
                 <ul class="nav-link display-flex">
-                    <li><a href="" class="nav-links">About</a></li>
-                    <li><a href="" class="nav-links">Episodes</a></li>
-                    <li><a href="" class="nav-links">Host</a></li>
+                    <li class="nav-item"><a class="nav-links" href="">About</a></li>
+                    <li class="nav-item"><a class="nav-links" href="">Episodes</a></li>
+                    <li class="nav-item"><a class="nav-links" href="">Host</a></li>
                 </ul>
-                <button class="primary-btn display-flex">Subscribe
-                    <img src="./assets/ArrowRight.png" alt="">
-                </button>
-        </nav>
+                <button class="header-button primary-btn">Subscribe</button>
+                <span class="hamburger-menu"><img src="./assets/hamburger-menu.png" alt=""></span>
+                </nav>
         </header>
-            <!-- banner -->
-        <section>
-        <div class="banner-container">
-            <div class="circle-img">
-                <img src="./assets/hero-circle.png" alt="">
-            </div>
-             <div class="circle-content">
-                <h1 class="circle-title">TechWave</h1>
-                <p class="text-light">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-            </div>
-            <div class="banner-button display-flex">
-                <button class="btn-1 primary-btn display-flex"><img src="./assets/spotify.png" alt=""> Listen on Spotify</button>
-                <button class="btn-2 display-flex"><img src="./assets/message.png" alt="">Subscribe</button>
-            </div>
+        <!-- card section -->
+         <main>
+            <section>
+                 <div class="hero-parent">
+                    <div class="hero-content">
+                        <h3 class="hero-title">About the Podcast</h3>
+                        <p class="hero-description text-light">
+                            TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+                            We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
+                        and share stories of personal growth from industry leaders.</p>
 
-        </div>
-        </section>
-             <!-- hero -->
-              
-    </main>
+                        <p class="hero-last-description text-light">
+                            Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                        </p>
+                    </div>
+                    <hr class="hero-hr">
+                    
+                    <div class="hero-number">
+                        <div class="hero-card">
+                            <h1 class="number">150K+</h1>
+                            <p class="number-text text-light">Monthly Listeners</p>
+                        </div>
+                        <div class="hero-card">
+                            <h1 class="number">200K+</h1>
+                            <p class="number-text text-light">Episodes Published</p>
+                        </div>
+                        <div class="hero-card">
+                            <h1 class="number">4.9*</h1>
+                            <p class="number-text text-light">Average Rating</p>
+                        </div>
+                        <div class="hero-card">
+                            <h1 class="number">50K+</h1>
+                            <p class="number-text text-light">Industry Experts</p>
+                        </div>
+
+                    </div>
+                 </div>
+            </section>
+         </main>
 </body>
 </html>
