@@ -87,7 +87,7 @@ hr{
     max-width: 1600px;
     margin: 0 auto;
     height: 760px;
-    background-image: url(./assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -389,7 +389,7 @@ iframe{
     height: 412px;
     background-position:center;
     position: relative;
-    background-image: url(./assets/footer-bg.png);
+    background-image: url(../assets/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
