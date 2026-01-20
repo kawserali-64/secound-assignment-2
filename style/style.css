@@ -26,7 +26,6 @@
 }
 .text-light{
     color: rgba(255, 255, 255, 0.694);
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -48,7 +47,7 @@ hr{
 /* header style */
 
 .navbar{
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
     padding: 16px;
     justify-content: space-between;
@@ -84,7 +83,7 @@ hr{
   
 }
 .banner-container{
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
     height: 760px;
     background-image: url(../assets/hero-bg.png);
@@ -104,6 +103,20 @@ hr{
     position: absolute;
     margin-top: 124px;
     
+}
+.new{
+    position: absolute;
+    margin-top: 67px;
+    margin-left: 200px;
+}
+.bannar-new{
+    padding: 8px 16px;
+    background:rgba(0, 255, 136, 1);
+    align-items: center;
+    border-radius: 1000px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 }
 .banner-content{
     justify-items: center;
@@ -140,30 +153,34 @@ hr{
     margin-top: 24px;
     gap: 8px;
 }
+
 /* hero */
+.hero-section{
+    background: rgba(26, 11, 46, 1);
+
+}
 .hero-parent{
-    max-width: 1600px;
+    max-width: 1200px;
     height: 646px;
     margin: 0 auto;
-    background: rgba(26, 11, 46, 1);
 }
+
 .hero-content{
     margin: 0 auto;
+
 }
 .hero-title{
     padding-top: 50px;
     text-align: center;
     color: white;
     margin-bottom: 16px;
-    font-family: Inter;
     font-style: Bold;
     font-size: 48px;
     font-weight: 700;
-    /* line-height: 58px; */
-    letter-spacing: 0%;
 }
 .hero-description{
     text-align: center;
+    
 }
 .hero-last-description{
     margin-top: 40px;
@@ -188,7 +205,6 @@ hr{
 .card-parent{
     background: rgba(35, 14, 61, 1);
     padding: 80px 16px;
-    max-width: 1600px;
     margin: 0 auto;
 }
 .section-title{
@@ -200,6 +216,8 @@ hr{
     font-weight: 700;
 }
 .card-container{
+    max-width: 1500px;
+    margin: 0 auto;
     padding: 120px;
     display: grid;
     gap: 30px;
@@ -251,79 +269,69 @@ hr{
 }
 
 /* featured  */
-
-/* .featured-container{
-    max-width: 1600px;
-    height: 700px;
+.featured-container{
     background: rgba(26, 11, 46, 1);
+    margin: 0 auto;
+    padding: 50px;
+}
+.featured-section{
     margin: 0 auto;
     justify-content: center;
     justify-items: center;
-}
-.featured-card{
-    width: 50%;
-    text-align: left;
-    border: 2px solid gray;
-}
-.featured-vedio{
-    border: 2px solid red;
-    width: 1200px;
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   justify-content: center;
-   gap: 40px;
-} 
-
-iframe{
-    border-radius: 24px 24px 0px 0px;
-   
+    align-items: center;
 }
 .vedio-parent{
-    background: rgba(37, 13, 68, 1);
-    border-radius: 0px 0px 24px 24px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
 }
-.vedio{
-       width: 100%;
-       height: 50%;
+.future-title {
+    text-align: left;
+    font-size: 30px;
 }
-.featured-img{
-    width: 368px;
-    height: 24px;
-    margin-left: 24px;
+.future-content{
+    text-align: left;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.future-time{
+    margin:20px 20px;
+    display: flex;
     gap: 6px;
 }
-.featured-img p{
-    color:rgba(0, 255, 136, 1);
+.future-paragraph{
+    color: rgba(0, 255, 136, 1);
+    font-style: Semi Bold;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
-    text-align: left;
 }
-
-
-.vedio-head{
-    color: white;
-     font-family: Inter;
-    font-style: Bold;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0%;
-    text-align: left;
-    padding:0 24px;
-    margin-top:24px;
+.box-1{
+    border-radius: 0px 0px 24px 24px;
+    background: rgba(37, 13, 68, 1);
 }
-.vedio-text{
-    text-align: left;
-    padding: 24px;
-} */
+.box-2{
+     border-radius: 0px 0px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+}
+.box-3{
+    border-radius: 0px 0px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+}
+iframe{
+    width: 100%;
 
-
+}
 
  /* meet the host */
  .meet-section{
     text-align: center;
     background: rgba(26, 11, 46, 1);
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
 
  }
@@ -377,11 +385,61 @@ iframe{
     height: 20px;
     
 }
+/* sojib footer */
+.footer-parent {
+    background-image: url(../assets/footer-bg.png);
+    background-color: #0d0221; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
 
+.footer-content {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.footer-logo img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.footer-icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+.icon-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-copy {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    padding-top: 20px;
+}
 
 /* footer */
-.footer-section{
-    max-width: 1600px;
+/* .footer-section{
     margin: 0 auto;
 
 }
@@ -419,7 +477,7 @@ iframe{
     margin-top: 60px;
     text-align: center;
 
-}
+} */
 
 /* responsive */
 @media screen and (max-width:576px) {
@@ -475,7 +533,7 @@ iframe{
     .section-title{
         font-size: 32px;
     }
-    .featured-vedio{
+    .vedio-parent{
         grid-template-columns: repeat(1,1fr);
         height: auto;
     }
@@ -503,5 +561,19 @@ iframe{
     .meet-icons{
         justify-content: center;
     }
+   
+    .footer-icon-grid {
+        gap: 20px;
+    }
     
+    .icon-item {
+        flex: 0 0 40%;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .youtube-items{
+        justify-content: right;
+    }
+   
+
 }
