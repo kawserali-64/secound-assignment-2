@@ -510,27 +510,40 @@ iframe{
         flex-wrap: wrap;
         justify-content: center;
     }
-    .meet-img{
+    .meet-section {
+        padding: 60px 0;
+    }
+
+    .meet-img {
         flex-direction: column;
-        justify-items: center;
-        align-items: center;
-    }
-    .meet-title{
         text-align: center;
+        width: 95%;
+        padding: 40px 20px;
     }
-    .meet-container{
+
+    .meet-container {
         height: auto;
     }
-    .meet-content{
+
+    .meet-title {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .meet-content {
         text-align: center;
         margin: 0 auto;
-        width: 400px;
-        
+        width: 100%;
+        max-width: 100%;
+        font-size: 15px;
     }
-    .meet-icons{
+
+    .meet-icons {
         justify-content: center;
+        margin-top: 24px;
     }
-   
+
     .footer-icon-grid {
         gap: 20px;
     }
